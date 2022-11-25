@@ -4,6 +4,7 @@
 
 <script>
   import Button from './Button.svelte';
+  export const prerender = true;
   
   let pages = [
     'Tutorials by industry experts',
