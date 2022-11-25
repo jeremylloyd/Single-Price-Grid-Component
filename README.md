@@ -15,8 +15,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/jeremylloyd/Single-Price-Grid-Component)
+- Live Site URL: [Github Pages](https://jeremylloyd.github.io/Single-Price-Grid-Component/)
 
 ## My process
 
@@ -24,9 +24,14 @@ Users should be able to:
 
 - HTML
 - CSS
+- JS
 - Svelte
 
 ### What I learned
 
 - Svelte
   - By default, SvelteKit is configured to prefer static content be served from the `/static` directory. Use it instead of the `/images` directory I've used for previous projeccts
+- NodeJS
+  - Deploying on Github Pages took some extra steps
+  - Svelte is using a number of other packages behind the scenes, resulting in searches for 'deploy Svelte project' not coming up with many results. Instead, 'deploy vite project' and 'deploy nodejs project' were more useful
+  - [This link](https://blog.codedbyjordan.com/deploying-a-vite-app-with-github-actions) was a great reference
