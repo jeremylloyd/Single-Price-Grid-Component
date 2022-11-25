@@ -7,7 +7,7 @@
 </script>
 
 <main class="panels">
-  <section class="panel panel--light">
+  <section class="panel panel--light panel--wide">
     <h2 class="panel__title">Join our community</h2>
   
     <h3 class="panel__subtitle">30-day, hassle-free money back guarantee</h3>
