@@ -4,6 +4,16 @@
 
 <script>
   import Button from './Button.svelte';
+  
+  let pages = [
+    'Tutorials by industry experts',
+    'Peer &amp; expert code review',
+    'Coding exercises',
+    'Access to our GitHub repos',
+    'Community forum',
+    'Flashcard decks',
+    'New videos every week',
+  ];
 </script>
 
 <main class="panels">
@@ -36,13 +46,9 @@
   <section class="panel">
     <h2 class="panel__title">Why Us</h2>
     <ul class="panel__ul">
-      <a href="."><li class="panel__item">Tutorials by industry experts</li></a>
-      <a href="."><li class="panel__item">Peer &amp; expert code review</li></a>
-      <a href="."><li class="panel__item">Coding exercises</li></a>
-      <a href="."><li class="panel__item">Access to our GitHub repos</li></a>
-      <a href="."><li class="panel__item">Community forum</li></a>
-      <a href="."><li class="panel__item">Flashcard decks</li></a>
-      <a href="."><li class="panel__item">New videos every week</li></a>
+      {#each pages as page}
+        <a href="http://"><li class="panel__item">{@html page}</li></a>
+      {/each}
     </ul>
   </section>
 
