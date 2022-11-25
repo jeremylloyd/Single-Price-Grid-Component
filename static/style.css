@@ -110,6 +110,11 @@ body {
   box-shadow: 0px 5px 10px var(--shadow);
 }
 
+.panel__button:active {
+  background-color: white;
+  color: var(--yellow);
+}
+
 .panel__label {
   color: var(--cyanlighter);
 }
@@ -144,10 +149,26 @@ body {
   font-size: 0.8rem;
 }
 
+.panel__item:active {
+  color: white;
+}
+
 .panels {
   font-family: 'Karla';
   max-width: 325px;
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0px 20px 40px var(--shadow);
+}
+
+@media (hover: hover) {
+  .panel__button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: var(--yellow);
+  }
+
+  .panel__item:hover {
+    color: var(--yellow);
+  }
 }
